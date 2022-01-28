@@ -4,6 +4,7 @@ import ResponsiveAppBar from './ResponsiveAppBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import { DataTableBasicDemo } from './DataTableBasicDemo';
 
 
 function HomePanel() {
@@ -12,7 +13,7 @@ return  (
 
 
 <Panel header="Cloud Gym ">
-    <p>Confira as Aulas</p>
+    <p> <DataTableBasicDemo/></p>
 </Panel>
 
 )

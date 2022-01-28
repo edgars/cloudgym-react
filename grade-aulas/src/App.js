@@ -10,7 +10,6 @@ function App() {
       <header>
         <ResponsiveAppBar/>
         <HomePanel/>
-
       </header>
     </div>
   );
